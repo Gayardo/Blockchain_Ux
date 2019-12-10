@@ -463,14 +463,14 @@
     "absolutePath": "/C/Users/Gayardo/Desktop/monnaieWork/Ux_Ethereum/contracts/library/token/ERC721/ERC721Full.sol",
     "exportedSymbols": {
       "ERC721Full": [
-        12088
+        12128
       ]
     },
-    "id": 12089,
+    "id": 12129,
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 12066,
+        "id": 12106,
         "literals": [
           "solidity",
           "^",
@@ -483,10 +483,10 @@
       {
         "absolutePath": "/C/Users/Gayardo/Desktop/monnaieWork/Ux_Ethereum/contracts/library/token/ERC721/ERC721.sol",
         "file": "./ERC721.sol",
-        "id": 12067,
+        "id": 12107,
         "nodeType": "ImportDirective",
-        "scope": 12089,
-        "sourceUnit": 11697,
+        "scope": 12129,
+        "sourceUnit": 11737,
         "src": "25:22:131",
         "symbolAliases": [],
         "unitAlias": ""
@@ -494,10 +494,10 @@
       {
         "absolutePath": "/C/Users/Gayardo/Desktop/monnaieWork/Ux_Ethereum/contracts/library/token/ERC721/ERC721Enumerable.sol",
         "file": "./ERC721Enumerable.sol",
-        "id": 12068,
+        "id": 12108,
         "nodeType": "ImportDirective",
-        "scope": 12089,
-        "sourceUnit": 12065,
+        "scope": 12129,
+        "sourceUnit": 12105,
         "src": "48:32:131",
         "symbolAliases": [],
         "unitAlias": ""
@@ -505,10 +505,10 @@
       {
         "absolutePath": "/C/Users/Gayardo/Desktop/monnaieWork/Ux_Ethereum/contracts/library/token/ERC721/ERC721Metadata.sol",
         "file": "./ERC721Metadata.sol",
-        "id": 12069,
+        "id": 12109,
         "nodeType": "ImportDirective",
-        "scope": 12089,
-        "sourceUnit": 12286,
+        "scope": 12129,
+        "sourceUnit": 12326,
         "src": "81:30:131",
         "symbolAliases": [],
         "unitAlias": ""
@@ -519,17 +519,17 @@
             "arguments": null,
             "baseName": {
               "contractScope": null,
-              "id": 12070,
+              "id": 12110,
               "name": "ERC721",
               "nodeType": "UserDefinedTypeName",
-              "referencedDeclaration": 11696,
+              "referencedDeclaration": 11736,
               "src": "409:6:131",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_ERC721_$11696",
+                "typeIdentifier": "t_contract$_ERC721_$11736",
                 "typeString": "contract ERC721"
               }
             },
-            "id": 12071,
+            "id": 12111,
             "nodeType": "InheritanceSpecifier",
             "src": "409:6:131"
           },
@@ -537,17 +537,17 @@
             "arguments": null,
             "baseName": {
               "contractScope": null,
-              "id": 12072,
+              "id": 12112,
               "name": "ERC721Enumerable",
               "nodeType": "UserDefinedTypeName",
-              "referencedDeclaration": 12064,
+              "referencedDeclaration": 12104,
               "src": "417:16:131",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_ERC721Enumerable_$12064",
+                "typeIdentifier": "t_contract$_ERC721Enumerable_$12104",
                 "typeString": "contract ERC721Enumerable"
               }
             },
-            "id": 12073,
+            "id": 12113,
             "nodeType": "InheritanceSpecifier",
             "src": "417:16:131"
           },
@@ -555,60 +555,60 @@
             "arguments": null,
             "baseName": {
               "contractScope": null,
-              "id": 12074,
+              "id": 12114,
               "name": "ERC721Metadata",
               "nodeType": "UserDefinedTypeName",
-              "referencedDeclaration": 12285,
+              "referencedDeclaration": 12325,
               "src": "435:14:131",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_ERC721Metadata_$12285",
+                "typeIdentifier": "t_contract$_ERC721Metadata_$12325",
                 "typeString": "contract ERC721Metadata"
               }
             },
-            "id": 12075,
+            "id": 12115,
             "nodeType": "InheritanceSpecifier",
             "src": "435:14:131"
           }
         ],
         "contractDependencies": [
-          737,
-          5331,
-          5564,
-          11696,
-          12064,
-          12285,
-          12557,
-          12584,
-          12619
+          777,
+          5371,
+          5604,
+          11736,
+          12104,
+          12325,
+          12597,
+          12624,
+          12659
         ],
         "contractKind": "contract",
         "documentation": "@title Full ERC721 Token\n@dev This implementation includes all the required and some optional functionality of the ERC721 standard\nMoreover, it includes approve all functionality using operator terminology.\n * See https://eips.ethereum.org/EIPS/eip-721",
         "fullyImplemented": true,
-        "id": 12088,
+        "id": 12128,
         "linearizedBaseContracts": [
-          12088,
-          12285,
-          12619,
-          12064,
-          12584,
-          11696,
-          12557,
-          5331,
-          5564,
-          737
+          12128,
+          12325,
+          12659,
+          12104,
+          12624,
+          11736,
+          12597,
+          5371,
+          5604,
+          777
         ],
         "name": "ERC721Full",
         "nodeType": "ContractDefinition",
         "nodes": [
           {
             "body": {
-              "id": 12086,
+              "id": 12126,
               "nodeType": "Block",
               "src": "547:64:131",
               "statements": []
             },
             "documentation": null,
-            "id": 12087,
+            "id": 12127,
             "implemented": true,
             "kind": "constructor",
             "modifiers": [
@@ -616,11 +616,11 @@
                 "arguments": [
                   {
                     "argumentTypes": null,
-                    "id": 12082,
+                    "id": 12122,
                     "name": "name",
                     "nodeType": "Identifier",
                     "overloadedDeclarations": [],
-                    "referencedDeclaration": 12077,
+                    "referencedDeclaration": 12117,
                     "src": "533:4:131",
                     "typeDescriptions": {
                       "typeIdentifier": "t_string_memory_ptr",
@@ -629,11 +629,11 @@
                   },
                   {
                     "argumentTypes": null,
-                    "id": 12083,
+                    "id": 12123,
                     "name": "symbol",
                     "nodeType": "Identifier",
                     "overloadedDeclarations": [],
-                    "referencedDeclaration": 12079,
+                    "referencedDeclaration": 12119,
                     "src": "539:6:131",
                     "typeDescriptions": {
                       "typeIdentifier": "t_string_memory_ptr",
@@ -641,17 +641,17 @@
                     }
                   }
                 ],
-                "id": 12084,
+                "id": 12124,
                 "modifierName": {
                   "argumentTypes": null,
-                  "id": 12081,
+                  "id": 12121,
                   "name": "ERC721Metadata",
                   "nodeType": "Identifier",
                   "overloadedDeclarations": [],
-                  "referencedDeclaration": 12285,
+                  "referencedDeclaration": 12325,
                   "src": "518:14:131",
                   "typeDescriptions": {
-                    "typeIdentifier": "t_type$_t_contract$_ERC721Metadata_$12285_$",
+                    "typeIdentifier": "t_type$_t_contract$_ERC721Metadata_$12325_$",
                     "typeString": "type(contract ERC721Metadata)"
                   }
                 },
@@ -662,15 +662,15 @@
             "name": "",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 12080,
+              "id": 12120,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 12077,
+                  "id": 12117,
                   "name": "name",
                   "nodeType": "VariableDeclaration",
-                  "scope": 12087,
+                  "scope": 12127,
                   "src": "469:18:131",
                   "stateVariable": false,
                   "storageLocation": "memory",
@@ -679,7 +679,7 @@
                     "typeString": "string"
                   },
                   "typeName": {
-                    "id": 12076,
+                    "id": 12116,
                     "name": "string",
                     "nodeType": "ElementaryTypeName",
                     "src": "469:6:131",
@@ -693,10 +693,10 @@
                 },
                 {
                   "constant": false,
-                  "id": 12079,
+                  "id": 12119,
                   "name": "symbol",
                   "nodeType": "VariableDeclaration",
-                  "scope": 12087,
+                  "scope": 12127,
                   "src": "489:20:131",
                   "stateVariable": false,
                   "storageLocation": "memory",
@@ -705,7 +705,7 @@
                     "typeString": "string"
                   },
                   "typeName": {
-                    "id": 12078,
+                    "id": 12118,
                     "name": "string",
                     "nodeType": "ElementaryTypeName",
                     "src": "489:6:131",
@@ -721,19 +721,19 @@
               "src": "468:42:131"
             },
             "returnParameters": {
-              "id": 12085,
+              "id": 12125,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "547:0:131"
             },
-            "scope": 12088,
+            "scope": 12128,
             "src": "456:155:131",
             "stateMutability": "nonpayable",
             "superFunction": null,
             "visibility": "public"
           }
         ],
-        "scope": 12089,
+        "scope": 12129,
         "src": "386:227:131"
       }
     ],
@@ -743,14 +743,14 @@
     "absolutePath": "/C/Users/Gayardo/Desktop/monnaieWork/Ux_Ethereum/contracts/library/token/ERC721/ERC721Full.sol",
     "exportedSymbols": {
       "ERC721Full": [
-        12088
+        12128
       ]
     },
-    "id": 12089,
+    "id": 12129,
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 12066,
+        "id": 12106,
         "literals": [
           "solidity",
           "^",
@@ -763,10 +763,10 @@
       {
         "absolutePath": "/C/Users/Gayardo/Desktop/monnaieWork/Ux_Ethereum/contracts/library/token/ERC721/ERC721.sol",
         "file": "./ERC721.sol",
-        "id": 12067,
+        "id": 12107,
         "nodeType": "ImportDirective",
-        "scope": 12089,
-        "sourceUnit": 11697,
+        "scope": 12129,
+        "sourceUnit": 11737,
         "src": "25:22:131",
         "symbolAliases": [],
         "unitAlias": ""
@@ -774,10 +774,10 @@
       {
         "absolutePath": "/C/Users/Gayardo/Desktop/monnaieWork/Ux_Ethereum/contracts/library/token/ERC721/ERC721Enumerable.sol",
         "file": "./ERC721Enumerable.sol",
-        "id": 12068,
+        "id": 12108,
         "nodeType": "ImportDirective",
-        "scope": 12089,
-        "sourceUnit": 12065,
+        "scope": 12129,
+        "sourceUnit": 12105,
         "src": "48:32:131",
         "symbolAliases": [],
         "unitAlias": ""
@@ -785,10 +785,10 @@
       {
         "absolutePath": "/C/Users/Gayardo/Desktop/monnaieWork/Ux_Ethereum/contracts/library/token/ERC721/ERC721Metadata.sol",
         "file": "./ERC721Metadata.sol",
-        "id": 12069,
+        "id": 12109,
         "nodeType": "ImportDirective",
-        "scope": 12089,
-        "sourceUnit": 12286,
+        "scope": 12129,
+        "sourceUnit": 12326,
         "src": "81:30:131",
         "symbolAliases": [],
         "unitAlias": ""
@@ -799,17 +799,17 @@
             "arguments": null,
             "baseName": {
               "contractScope": null,
-              "id": 12070,
+              "id": 12110,
               "name": "ERC721",
               "nodeType": "UserDefinedTypeName",
-              "referencedDeclaration": 11696,
+              "referencedDeclaration": 11736,
               "src": "409:6:131",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_ERC721_$11696",
+                "typeIdentifier": "t_contract$_ERC721_$11736",
                 "typeString": "contract ERC721"
               }
             },
-            "id": 12071,
+            "id": 12111,
             "nodeType": "InheritanceSpecifier",
             "src": "409:6:131"
           },
@@ -817,17 +817,17 @@
             "arguments": null,
             "baseName": {
               "contractScope": null,
-              "id": 12072,
+              "id": 12112,
               "name": "ERC721Enumerable",
               "nodeType": "UserDefinedTypeName",
-              "referencedDeclaration": 12064,
+              "referencedDeclaration": 12104,
               "src": "417:16:131",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_ERC721Enumerable_$12064",
+                "typeIdentifier": "t_contract$_ERC721Enumerable_$12104",
                 "typeString": "contract ERC721Enumerable"
               }
             },
-            "id": 12073,
+            "id": 12113,
             "nodeType": "InheritanceSpecifier",
             "src": "417:16:131"
           },
@@ -835,60 +835,60 @@
             "arguments": null,
             "baseName": {
               "contractScope": null,
-              "id": 12074,
+              "id": 12114,
               "name": "ERC721Metadata",
               "nodeType": "UserDefinedTypeName",
-              "referencedDeclaration": 12285,
+              "referencedDeclaration": 12325,
               "src": "435:14:131",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_ERC721Metadata_$12285",
+                "typeIdentifier": "t_contract$_ERC721Metadata_$12325",
                 "typeString": "contract ERC721Metadata"
               }
             },
-            "id": 12075,
+            "id": 12115,
             "nodeType": "InheritanceSpecifier",
             "src": "435:14:131"
           }
         ],
         "contractDependencies": [
-          737,
-          5331,
-          5564,
-          11696,
-          12064,
-          12285,
-          12557,
-          12584,
-          12619
+          777,
+          5371,
+          5604,
+          11736,
+          12104,
+          12325,
+          12597,
+          12624,
+          12659
         ],
         "contractKind": "contract",
         "documentation": "@title Full ERC721 Token\n@dev This implementation includes all the required and some optional functionality of the ERC721 standard\nMoreover, it includes approve all functionality using operator terminology.\n * See https://eips.ethereum.org/EIPS/eip-721",
         "fullyImplemented": true,
-        "id": 12088,
+        "id": 12128,
         "linearizedBaseContracts": [
-          12088,
-          12285,
-          12619,
-          12064,
-          12584,
-          11696,
-          12557,
-          5331,
-          5564,
-          737
+          12128,
+          12325,
+          12659,
+          12104,
+          12624,
+          11736,
+          12597,
+          5371,
+          5604,
+          777
         ],
         "name": "ERC721Full",
         "nodeType": "ContractDefinition",
         "nodes": [
           {
             "body": {
-              "id": 12086,
+              "id": 12126,
               "nodeType": "Block",
               "src": "547:64:131",
               "statements": []
             },
             "documentation": null,
-            "id": 12087,
+            "id": 12127,
             "implemented": true,
             "kind": "constructor",
             "modifiers": [
@@ -896,11 +896,11 @@
                 "arguments": [
                   {
                     "argumentTypes": null,
-                    "id": 12082,
+                    "id": 12122,
                     "name": "name",
                     "nodeType": "Identifier",
                     "overloadedDeclarations": [],
-                    "referencedDeclaration": 12077,
+                    "referencedDeclaration": 12117,
                     "src": "533:4:131",
                     "typeDescriptions": {
                       "typeIdentifier": "t_string_memory_ptr",
@@ -909,11 +909,11 @@
                   },
                   {
                     "argumentTypes": null,
-                    "id": 12083,
+                    "id": 12123,
                     "name": "symbol",
                     "nodeType": "Identifier",
                     "overloadedDeclarations": [],
-                    "referencedDeclaration": 12079,
+                    "referencedDeclaration": 12119,
                     "src": "539:6:131",
                     "typeDescriptions": {
                       "typeIdentifier": "t_string_memory_ptr",
@@ -921,17 +921,17 @@
                     }
                   }
                 ],
-                "id": 12084,
+                "id": 12124,
                 "modifierName": {
                   "argumentTypes": null,
-                  "id": 12081,
+                  "id": 12121,
                   "name": "ERC721Metadata",
                   "nodeType": "Identifier",
                   "overloadedDeclarations": [],
-                  "referencedDeclaration": 12285,
+                  "referencedDeclaration": 12325,
                   "src": "518:14:131",
                   "typeDescriptions": {
-                    "typeIdentifier": "t_type$_t_contract$_ERC721Metadata_$12285_$",
+                    "typeIdentifier": "t_type$_t_contract$_ERC721Metadata_$12325_$",
                     "typeString": "type(contract ERC721Metadata)"
                   }
                 },
@@ -942,15 +942,15 @@
             "name": "",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 12080,
+              "id": 12120,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 12077,
+                  "id": 12117,
                   "name": "name",
                   "nodeType": "VariableDeclaration",
-                  "scope": 12087,
+                  "scope": 12127,
                   "src": "469:18:131",
                   "stateVariable": false,
                   "storageLocation": "memory",
@@ -959,7 +959,7 @@
                     "typeString": "string"
                   },
                   "typeName": {
-                    "id": 12076,
+                    "id": 12116,
                     "name": "string",
                     "nodeType": "ElementaryTypeName",
                     "src": "469:6:131",
@@ -973,10 +973,10 @@
                 },
                 {
                   "constant": false,
-                  "id": 12079,
+                  "id": 12119,
                   "name": "symbol",
                   "nodeType": "VariableDeclaration",
-                  "scope": 12087,
+                  "scope": 12127,
                   "src": "489:20:131",
                   "stateVariable": false,
                   "storageLocation": "memory",
@@ -985,7 +985,7 @@
                     "typeString": "string"
                   },
                   "typeName": {
-                    "id": 12078,
+                    "id": 12118,
                     "name": "string",
                     "nodeType": "ElementaryTypeName",
                     "src": "489:6:131",
@@ -1001,19 +1001,19 @@
               "src": "468:42:131"
             },
             "returnParameters": {
-              "id": 12085,
+              "id": 12125,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "547:0:131"
             },
-            "scope": 12088,
+            "scope": 12128,
             "src": "456:155:131",
             "stateMutability": "nonpayable",
             "superFunction": null,
             "visibility": "public"
           }
         ],
-        "scope": 12089,
+        "scope": 12129,
         "src": "386:227:131"
       }
     ],
@@ -1025,7 +1025,7 @@
   },
   "networks": {},
   "schemaVersion": "3.0.19",
-  "updatedAt": "2019-12-04T11:45:29.582Z",
+  "updatedAt": "2019-12-10T18:18:54.901Z",
   "devdoc": {
     "details": "This implementation includes all the required and some optional functionality of the ERC721 standard Moreover, it includes approve all functionality using operator terminology. * See https://eips.ethereum.org/EIPS/eip-721",
     "methods": {

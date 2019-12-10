@@ -55,15 +55,16 @@ contract Token is Context, ERC165, IERC721, WhitelistedRole {
      *        0xa22cb465 ^ 0xe985e9c ^ 0x23b872dd ^ 0x42842e0e ^ 0xb88d4fde == 0x80ac58cd
      */
 
-     uint public _currentId;
+    uint public _currentId;
 
     bytes4 private constant _INTERFACE_ID_ERC721 = 0x80ac58cd;
 
     constructor () public {
         // register the supported interfaces to conform to ERC721 via ERC165
         _registerInterface(_INTERFACE_ID_ERC721);
-        name="GayardoRegistry";
+        name='GayardoRegistry';
         counter=0;
+        _currentId=0;
         
     }
 
@@ -356,6 +357,33 @@ contract Token is Context, ERC165, IERC721, WhitelistedRole {
         if (_tokenApprovals[tokenId] != address(0)) {
             _tokenApprovals[tokenId] = address(0);
         }
+    }
+    //function declareAnimal(address to, typeAnimal race, uint age, Color color, uint rarity, string memory name)
+    //    public onlyWhitelisted() returns (bool) {
+    //    _currentId++;
+    //    Animal memory animal = Animal(_currentId, race, age, color, rarity,name);
+    //    _animalsOfOwner[msg.sender].push(animal);
+
+    //    _mint(to, _currentId);
+    //    return true;
+    //}
+    
+
+    function mintToken(address to) payable public returns (bool){
+        
+        
+        //require(msg.value == 0.1 ether);
+        _currentId++;
+        _mint(to, _currentId);
+
+        return true;
+    }
+
+    function getRegistryName() public view returns(string memory){
+        return name;
+    }
+    function getCounter() public returns(uint){
+        return this._currentId();
     }
            
 
